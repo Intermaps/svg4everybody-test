@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>svg4everybody test</title>
+  <script src="./js/svg4everybody.js"></script>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <use transform="translate(50, 100)" xlink:href="./svgs/triangle.svg#triangle" ></use>
+    <use transform="translate(200, 170)" xlink:href="./svgs/triangle.svg#triangle" ></use>
+    <use transform="translate(80, 120)" xlink:href="./svgs/rectangle.svg#rectangle" ></use>
+  </svg>
+  <script>
+    svg4everybody();
+  </script>
+</body>
+</html>
